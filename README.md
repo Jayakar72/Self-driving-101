@@ -32,3 +32,6 @@ Astar_purepursuit.ipynb
 ```
 2. From here on, you can edit the steering logic and also add more DL models to detect the lanes, street signs, and pedestrians. Follow the handbook to learn the commands and implement the logic on this start code.
 3. To integrate the sensors, you can refer to this example GitHub repo - [here](https://github.com/wuhanstudio/carla-tutorial)
+
+# Future work
+Deployment of fully functional autonomous logic on a model car/ Buggy in campus, testing on various environments in simulation, and also the newer Safety scenarios to make sure the buggy can be functional without any crash/ collision in real-world scenarios.
