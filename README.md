@@ -10,15 +10,25 @@ CARLA has been developed from the ground up to support development, training, an
 You can learn more about the carla-sim and its use cases here (please make sure to download Carla-Sim's latest version) - [here](https://carla.org/), you can see more tutorials here for understanding the usecases - [here](https://carla.readthedocs.io/en/latest/tutorials/).
 </div>
 
-# Getting started 
+# Waypoint collection 
 Follow the instructions in the Jupyter notebook 
 1. When starting the code or the logic of the waypoint collection, make sure to open the Carla sim in another window to make sure your code is reading the simulation input.
-2. We first have an interactive car simulation , where we can drive the car around the desired map, you can change the map 
-Follow the steps in the `ipynb file`:
+2. We first have an interactive car simulation, where we can drive the car around the desired map. You can also change the map, see the Carla Sim Handbook.
+Follow the steps in the `.ipynb` file:
 ```
 Collecting_waypoints.ipynb
 ```
-Make sure the code can detect the Carla in your local host
+Make sure the code can detect Carla on your local host
 ```
 carla.Client('localhost', 2000)
 ```
+Follow all the code blocks, and after driving around, you can see that you collect the waypoints and [x,y] - (lat, long), and you save it as waypoints.txt file.
+
+# Astar Pure pursuit
+After collecting the waypoints, you have a simple starter logic - which is A* path planning and simple path following with pure pursuit control logic.
+1. Follow the code blocks in this `.ipynb` file:
+```
+Astar_purepursuit.ipynb
+```
+2. From here on, you can edit the steering logic and also add more DL models to detect the lanes, street signs, and pedestrians. Follow the handbook to learn the commands and implement the logic on this start code.
+3. To integrate the sensors, you can refer to this example GitHub repo - [here](https://github.com/wuhanstudio/carla-tutorial)
