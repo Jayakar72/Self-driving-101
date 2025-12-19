@@ -1,2 +1,3 @@
-# Self-driving-101
-This is a capstone project made for tutorials of self-driving 101 in simulation for the freshmen - OOPS &amp; DL courses
+<div align="center">
+<h1> Self-driving-101 </h1>
+<h4> <i>This is a capstone project made for tutorials of self-driving 101 in simulation for the freshmen - OOPS &amp; DL courses </i></h4>
